@@ -1,0 +1,172 @@
+body {
+    background-color: #fff;
+    text-align: center !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+nav {
+    border-bottom: 2px solid #8b0000;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #080808 ;
+    padding: 0 !important;
+}
+
+nav .row {
+    padding: 10px;
+    margin: 0 auto !important;
+}
+
+nav span {
+    color: #8b0000;
+    font-size: 50px !important;
+}
+
+nav img {
+    width: 10em;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: 500;
+}
+
+.section-base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.section-base:nth-child(2) hr {
+    width: 60%;
+    background-color: #8b0000;
+    height: 2px;
+}
+
+.logo {
+    width: 25em;
+}
+
+
+#arrowCont {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 50px;
+    background-color: none;
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.arrow span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 5px solid #929292;
+    border-right: 5px solid #929292;
+    transform: rotate(45deg);
+    margin-top: -10px;
+    animation: animate 3s infinite;
+}
+
+.arrow:hover span{
+    border-bottom: 5px solid #8b0000;
+    border-right: 5px solid #8b0000;
+}
+
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(0,0);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+.titleCont {
+    margin-bottom: 100px;
+}
+
+.container-1 {
+    width: 80%;
+}
+
+#logovtnav {
+    cursor: pointer;
+}
+
+.vt_download {
+    width: 9.43rem;
+}
+
+.btn-vtracker {
+    background-color: #8b0000;
+    color: white;
+}
+
+.btn-vtracker:hover {
+    background-color: #790000;
+    color: white;
+}
+
+.text-vtracker {
+    color: #8b0000;
+}
+
+#tutorial .modal-body ol{
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer i {
+    margin: 5px;
+}
+
+.carousel {
+    width: 55%;
+    box-shadow: 0 0 20px black;
+    margin: 0 auto;
+}
+
+.modal-content {
+    color: #15151e;
+}
