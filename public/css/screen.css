@@ -1,0 +1,30 @@
+/* Smarthphone */
+@media only screen 
+and (max-width : 768px) {
+    #logovt {
+        width: 20rem;
+    }
+
+    .carousel {
+        width: 90%;
+    }
+}
+
+/* Tablet */
+@media only screen 
+and (max-width : 989px) and (min-width : 769px) {
+
+}
+
+/* Laptops */
+@media only screen 
+and (max-width : 1400px) and (min-width: 990px) {
+
+    
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1401px) {
+
+}
